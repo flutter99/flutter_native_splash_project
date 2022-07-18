@@ -74,10 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void initialize() async {
-
     /// here we will add a wait second to move on next screen
     await Future.delayed(Duration(seconds: 2));
-
     FlutterNativeSplash.remove();
   }
 
